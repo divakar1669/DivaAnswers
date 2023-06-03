@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diva Answer's !!!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./downloafavicond.png" type="image/x-icon">
+</head>
+<body>
+    <div class="banner ">
+        <img src="./illusion.png" alt="Banner Image" class="logo">
+        <h1>Diva Answer's !</h1>
+        <p> Welcome to Diva Answers ..... </p>
+        <p> Are you seeking answers? Do you have a burning question in your mind? Diva provides a platform for you to express your inquiries. Remember to formulate a clear request before each question. Even if the response doesn't meet your expectations, the act of asking allows you to release your thoughts and seek further clarification. Feel free to inquire again for a better understanding.</p>
+      </div>
+
+    <div class="container">  
+        <div class="centered-div">
+            <input type="text" id="hiddenInput" class="input-box" placeholder="Request Diva" onkeydown="checkDotOperator(event)">
+            <br>
+            <input type="text" id="Question"  class="input-box" placeholder="Your Question" >
+
+            <div class="button-container ">  
+                <button id="submit" onclick="display()">Submit</button>  
+                <button type="button" value="Secondary" onclick="reloadPage()" class="secondary-button">New Question</button>  
+            </div>
+        </div>
+        <div class="banner mTop">
+            <h1 id="visibleText" class="hide">Thank you for submitting!</h3>
+          </div>
+        <footer>
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+   
+
+   <script src="./script.js"></script>
+</body>
+</html>
